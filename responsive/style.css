@@ -1,0 +1,245 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* --------Body start-------- */
+body {
+    color: #515151;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-shadow: 0 1px 0 #FFF;
+    background-color: #ebebeb;
+}
+
+/* --------Body finish-------- */
+
+/* --------Header start-------- */
+.header{
+    height: 97px;
+    background-color: #373C3F;
+}
+
+/* --------Header finish-------- */
+
+/* --------Slider start-------- */
+.slider{
+    height: 567px;
+   background: rgb(25,180,198); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(25,180,198,1) 0%, rgba(7,138,164,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(25,180,198,1)), color-stop(100%,rgba(7,138,164,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg,  rgba(25,180,198,1) 0%,rgba(7,138,164,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg,  rgba(25,180,198,1) 0%,rgba(7,138,164,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg,  rgba(25,180,198,1) 0%,rgba(7,138,164,1) 100%); /* IE10+ */
+    background: linear-gradient(135deg,  rgba(25,180,198,1) 0%,rgba(7,138,164,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#19b4c6', endColorstr='#078aa4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+/* --------Slider finish-------- */
+
+/* --------Info-row start-------- */
+.row-text{
+    height: 245px;
+    width: 77.5%;
+    background-color: #27212c;
+    float: left;
+}
+.row-button{
+    height: 245px;
+    width: 22.5%;
+    background-color: #bc3183;
+    float: right;
+}
+/* --------Info-row finish-------- */
+
+/* --------Banners start-------- */
+.banners{
+    height: 295px;
+    margin: 0 auto;
+}
+.banner{
+    width: 33%;
+    height: 295px;
+    float: left;
+}
+.first{
+    background-color: #5b0fa1;
+}
+.second{
+    background-image: url(images/banner-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.third{
+    background-image: url(images/banner-3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* --------Banners finish-------- */
+
+/* --------Text start-------- */
+/* --------Text finish-------- */
+
+/* -------- start-------- */
+/* -------- finish-------- */
+
+/* -------- start-------- */
+/* -------- finish-------- */
+
+/* -------- start-------- */
+/* -------- finish-------- */
+
+/* -------- start-------- */
+/* -------- finish-------- */
+
+/* -------- start-------- */
+/* -------- finish-------- */
+
+/* -------- start-------- */
+/* -------- finish-------- */
+
+/* -------- start-------- */
+/* -------- finish-------- */
+
+/* -------- start-------- */
+/* -------- finish-------- */
+
+
+
+
+
+
+
+
+
+
+
+

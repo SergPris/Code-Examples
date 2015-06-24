@@ -1,0 +1,363 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* --------Fonts start-------- */
+@font-face {
+    font-family: 'RockoUltraFLF';
+    src: url('fonts/RockoUltraFLF.eot');
+    src: url('fonts/RockoUltraFLF.eot') format('embedded-opentype'),
+         url('fonts/RockoUltraFLF.woff2') format('woff2'),
+         url('fonts/RockoUltraFLF.woff') format('woff'),
+         url('fonts/RockoUltraFLF.ttf') format('truetype'),
+         url('fonts/RockoUltraFLF.svg#RockoUltraFLF') format('svg');
+}
+/* --------Fonts finish-------- */
+
+/* --------Body start-------- */
+body{
+    font-family: Verdana,sans-serif;
+    font-size: 12px;
+    color: #eaeff2;
+    background-color: #101010;
+}
+.wrapper{
+    width: 950px;
+    margin: 0 auto;
+}
+/* --------Body finish-------- */
+
+/* --------Header start-------- */
+.header{
+    height: 140px;
+    background-image: url(images/header-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.logo{
+    width: 187px;
+    height: 47px;
+    float: left;
+    margin-top: 46.5px;
+}
+.main-logo{
+    font-family: 'RockoUltraFLF';
+    font-size: 36px;
+    color: #f2f2f2;
+}
+.logo-text{
+    font-size: 11px;
+    color: #848484;
+}
+.nav{
+    float: right;
+}
+.nav-item{
+    float: left;
+    line-height: 140px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #0c9bdd;
+}
+.nav-item a:hover{
+    cursor: pointer;
+    color: #ffffff;
+}
+
+/* --------Header finish-------- */
+
+/* --------Slider start-------- */
+.slider{
+    height: 328px;
+    background-image: -moz-linear-gradient(left, #1B6E94 0%, #0C9BDD 50%, #1B6E94 100%);
+    background-image: -o-linear-gradient(left, #1B6E94 0%, #0C9BDD 50%, #1B6E94 100%);
+    background-image: -webkit-linear-gradient(left, #1B6E94 0%, #0C9BDD 50%, #1B6E94 100%);
+    background-image: linear-gradient(to right, #1B6E94 0%, #0C9BDD 50%, #1B6E94 100%);
+    -moz-box-shadow: inset 0 0 106px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: inset 0 0 106px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0 0 106px rgba(0, 0, 0, 0.75);
+}
+.slider-item-img1{
+    width: 315px;
+    height: 302px;
+    background-image: url(images/slider-img1.png);
+    float: left;
+}
+.slider-text1{
+    width: 635px;
+    float: right;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+.slider-name{
+    font-size: 30px;
+    color: #000000;
+    padding-bottom: 15px;
+}
+.slider-name span{
+    font-weight: bold;
+    color: #ffffff;
+}
+.slider-a{
+    padding-top: 20px;
+}
+.slider-a a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;    
+}
+.slider-a a:hover{
+    text-decoration: underline;
+}
+.slider-list1{
+    display: block;
+    list-style-position: inside;
+    list-style-image: url(images/li-icon.png);
+}
+.slider-list1 li{
+    margin-bottom: 10px;
+}
+/* --------Slider finish-------- */
+
+/* --------Info start-------- */
+.info{
+    height: 369px;
+    border-top: 1px solid #424242;
+    border-bottom: 1px solid #000000;
+    background-color: #121212;
+}
+.sidebar{
+    width: 312px;
+    height: 371px;
+    background-color: #0c0c0c;
+    display: inline-block;
+    float: left;
+}
+.info-box{
+    width: 613px;
+    height: 371px;
+    float: right;
+    padding-left: 25px;
+}
+.bar{
+    height: 100px;
+    width: 290px;
+    margin-top: 23px;
+}
+.bar-top-img{
+    height: 95px;
+    width: 95px;
+    margin-right: 13px;
+    float: left;
+    background-image: url(images/sidebar-top.png);
+}
+.bar-middle-img{
+    height: 95px;
+    width: 95px;
+    margin-right: 13px;
+    float: left;
+    background-image: url(images/sidebar-maddle.png);
+}
+.bar-bottom-img{
+    height: 95px;
+    width: 95px;
+    margin-right: 13px;
+    float: left;
+    background-image: url(images/sidebar-bottom.png);
+    background-repeat: no-repeat;
+}
+.bar-title{
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #0c9adc;
+}
+.bar-text{
+    font-size: 12px;
+    color: #8f8f8f;
+}
+.info-title{
+    margin-top: 39px;
+    margin-bottom: 18px;
+    font-size: 30px;
+    color: #ffffff;
+}
+.info-title span{
+    font-weight: bold;
+}
+.info-text{
+    color: #ffffff;
+    margin-bottom: 45px;
+}
+.info-img{
+    width: 137px;
+    height: 137px;
+    border: 1px solid #000000;
+    background-image: url(images/info-img.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #0a0a0a;
+    float: left;
+    margin-right: 10px;
+}
+.more-info{
+    text-decoration: none;
+    font-style: italic;
+    float: right;
+    color: #00afff;
+    margin-top: 30px;
+}
+.more-info:hover{
+    text-decoration: underline;
+}
+
+/* --------Info finish-------- */
+
+/* --------Footer start-------- */
+.footer{
+    background-color: #0a0a0a;
+    height: 84px;
+    border: 1px solid #000;
+    -moz-box-shadow: inset 0 0 0 rgba(75, 75, 75, 0.5);
+    -webkit-box-shadow: inset 0 0 0 rgba(75, 75, 75, 0.5);
+    box-shadow: inset 0 0 0 rgba(75, 75, 75, 0.5);
+}
+/* --------Footer finish-------- */
+
+
+
+

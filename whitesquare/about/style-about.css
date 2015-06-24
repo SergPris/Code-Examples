@@ -1,0 +1,370 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*fonts*/
+@font-face {
+    font-family: 'Oswald';
+    src: url('fonts/OswaldRegular.eot');
+    src: url('fonts/OswaldRegular.eot') format('embedded-opentype'),
+         url('fonts/OswaldRegular.woff2') format('woff2'),
+         url('fonts/OswaldRegular.woff') format('woff'),
+         url('fonts/OswaldRegular.ttf') format('truetype'),
+         url('fonts/OswaldRegular.svg#OswaldRegular') format('svg');
+}
+
+/* MAINITEMS BIGIN */
+.page{
+    width: 960px;
+    margin: 0 auto;
+}
+.header{
+    padding-bottom: 30px;   
+}
+.second-nav{
+    width: 250px;
+    height: 240px;
+}
+.small-gallery{
+    margin-top: 30px;
+    width: 250px; 
+    height: 240px;
+}
+.info{
+    width: 680px;
+    height: 745px;
+    margin-bottom: 30px;
+}
+.our-team{
+    width: 680px;
+    height: 375px;
+    float: right;
+}
+div.clear{
+    clear: both;   
+}
+div.sidebar-left{
+    float: left;   
+}
+.content-about{
+    height: 1195px;
+    float: right;
+}
+.footer{
+    height: 112px;
+    width: 100%;
+    background: #7e7e7e;
+    float: right;
+}
+body{
+    background-image: url(images/background.png)  
+}
+
+/* MAINITEMS END */
+
+/* Header*/
+.row:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.logo{
+    display: block;
+    background: url(images/logo.png) no-repeat;
+    width: 161px;
+    height: 38px;
+    float: left;
+}
+.search-form{
+    float: right;   
+}
+.search-input{
+    display: block;
+    background: #f3f3f3;
+    width: 152px;
+    height: 30px;
+    border: 1px solid #e7e7e7;
+    outline: 0;
+    padding: 0px;
+    padding-left: 8px;
+    float: right;
+}
+.search-button{
+    display: block;
+    height: 32px;
+    width: 40px;
+    background: #29c5e6;
+    border: 0;
+    outline: 0;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Oswald", Suns-serif;
+    font-size: 14px;
+    float: right;
+    padding: 0px;
+}
+.main-nav-item{
+    background: #f3f3f3;
+    font-family: "Oswald", Suns-serif;
+    color: #b2b2b2;
+    display: block;
+    width: 120px;
+    height: 38px;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    text-decoration: none;
+    text-align: center;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+.main-nav-bar li{
+    float: left;   
+}
+.active-nav-item{
+    background: #29c5e6;
+    color: #fff;
+    border: 0;
+    height: 40px;
+    line-height: 40px;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+.main-nav-bar:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.main-nav-bar{
+    margin-top: 20px;   
+}
+.header-top{
+    margin-top: 25px;   
+}
+.main-nav-item:hover{
+    background: #29c5e6;
+    color: #fff;
+    border: 0;
+    height: 40px;
+    line-height: 40px;
+    transition: 0.5s;
+}
+.search-button:hover{
+    cursor: pointer;
+    background: #9ee2f0;
+}
+.search-button:active{
+    -webkit-box-shadow: inset 0px 0px 30px 0px rgba(122, 122, 122, 0.75);
+    -moz-box-shadow:    inset 0px 0px 30px 0px rgba(122, 122, 122, 0.75);
+    box-shadow:         inset 0px 0px 30px 0px rgba(122, 122, 122, 0.75);
+}
+/*Header finish*/
+
+/*Sidebar left begin*/
+    /*Second nav begin*/
+.second-nav-el{
+    height: 40px;
+    width: 250px;
+    text-transform: uppercase;
+    line-height: 40px;
+    background: #f3f3f3;
+    outline: 1px solid #e7e7e7;
+    font-family: "Oswald", Suns-serif;
+    font-size: 14px;
+}
+.second-nav-el a{
+    text-decoration: none;
+    color: #8f8f8f;
+    
+}
+.square{
+    width: 8px;
+    height: 8px;
+    background: #8f8f8f;
+    float: left;
+    margin-top: 16px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.second-nav-el:hover .second-nav-a{
+    color: #29c5e6;   
+}
+.second-nav-el:hover .square{
+    background: #29c5e6;   
+}
+
+    /*Second nav end*/
+    /*Small gallery begin*/
+.small-gallery-head{
+    height: 40px;
+    background: #29c5e6;
+    color: #ffffff;
+    font-family: "Oswald", Suns-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 40px;
+    padding-left: 10px;
+}
+.small-gallery-img{
+    display: block;
+    border: 1px solid #e7e7e7;
+    height: 200px;
+    background: #f3f3f3;
+    overflow: hidden;
+}
+.small-gallery-album{
+    height: 180px;
+    width: 230px;
+    background: #e2e2e2;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+    /*Small gallery end*/
+
+/*Sidebar left end*/
+
+/*Conten about begin*/
+    /*Info head begin*/
+.info-head{
+    height: 170px;
+    background: #29c5e6;
+}
+    /*Info head begin*/
+    
+    /*Info text begin*/
+.info-text{
+    height: 395px;
+    color: #8f8f8f;
+    font-family: Tahoma;
+    font-size: 12px;
+    float: left;
+}
+.info-text p{
+    margin: 25px;
+    line-height: 1.5;
+}
+    /*Info text begin*/
+
+.info-gallery{
+    height: 180px;
+    width: 690px;
+    display: inline-block;
+}
+.info-img1{
+    display: inline-block;
+    height: 176px;
+    width: 321px;
+    outline: 1px solid #c9c9c9;
+    border: 1px solid white;
+    background: #e2e2e2;
+    margin-right: 30px;
+}
+.info-img2{
+    display: inline-block;
+    height: 176px;
+    width: 321px;
+    outline: 1px solid #c9c9c9;
+    border: 1px solid white;
+    background: #e2e2e2;
+ }
+    /*Info text end*/
+
+    /*Our team begin*/
+.our-team-head{
+    height: 45px;
+    width: 665px;
+    color: #ffffff;
+    background: #29c5e6;
+    line-height: 45px;
+    text-transform: uppercase;
+    font-family: Oswald;
+    font-size: 30px;
+    padding-left: 15px;
+}
+.our-team-gallery{
+    height: 310px;
+    width: 680px;
+    margin-top: 20px;
+}
+.member-card{
+    height: 155px;
+    width: 136px;
+    float: left;
+}
+.member-photo{
+    height: 96px;
+    width: 96px;
+    outline: 1px solid #c9c9c9;
+    border: 1px solid #ffffff;
+    background: #e2e2e2;
+}
+.name{
+    color: #8f8f8f;
+    font-family: Oswald;
+    font-size: 14px;
+}
+.job{
+    color: #29c5e6;
+    font-family: Oswald;
+    font-size: 14px;
+}
+    /*Our team end*/
+/*Conten about end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
