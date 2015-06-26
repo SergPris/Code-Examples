@@ -135,7 +135,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    text-shadow: 0 1px 0 #FFF;
     background-color: #ebebeb;
 }
 
@@ -146,13 +145,29 @@ body {
     height: 97px;
     background-color: #373C3F;
 }
-
+.nav{
+    margin-left: 54px;
+}
+.nav-item{
+    float: left;
+    line-height: 97px;
+    margin-right: 28px;
+}
+.nav-item a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #d7d7d7;
+}
+.nav-item a:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
 /* --------Header finish-------- */
 
 /* --------Slider start-------- */
 .slider{
     height: 567px;
-   background: rgb(25,180,198); /* Old browsers */
+    background: rgb(25,180,198); /* Old browsers */
     background: -moz-linear-gradient(-45deg,  rgba(25,180,198,1) 0%, rgba(7,138,164,1) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(25,180,198,1)), color-stop(100%,rgba(7,138,164,1))); /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(-45deg,  rgba(25,180,198,1) 0%,rgba(7,138,164,1) 100%); /* Chrome10+,Safari5.1+ */
@@ -160,6 +175,63 @@ body {
     background: -ms-linear-gradient(-45deg,  rgba(25,180,198,1) 0%,rgba(7,138,164,1) 100%); /* IE10+ */
     background: linear-gradient(135deg,  rgba(25,180,198,1) 0%,rgba(7,138,164,1) 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#19b4c6', endColorstr='#078aa4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.slider-text{
+    font-size: 50px;
+    color: #fff;
+    padding: 205px 0px 0px 80px;
+}
+.slider-reference{
+    color: #a6d1db;
+    padding: 50px 0px 0px 80px;
+}
+.animated { 
+    -webkit-animation-duration: 3s; 
+    animation-duration: 3s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+    -webkit-animation-timing-function: ease-in-out; 
+    animation-timing-function: ease-in-out; 
+} 
+
+@-webkit-keyframes fadeInLeft { 
+    0% { 
+        opacity: 0; 
+        -webkit-transform: translateX(-20px); 
+    } 
+    100% { 
+        opacity: 1; 
+        -webkit-transform: translateX(0); 
+    } 
+} 
+@keyframes fadeInLeft { 
+    0% { 
+        opacity: 0; 
+        transform: translateX(-20px); 
+    } 
+    100% { 
+        opacity: 1; 
+        transform: translateX(0); 
+    } 
+} 
+.fade-in-left { 
+    -webkit-animation-name: fadeInLeft; 
+    animation-name: fadeInLeft; 
+}
+.row-button{
+    height: 245px;
+    width: 22.5%;
+    background-color: #bc3183;
+    float: right;
+    color: #d7d7d7;
+    text-align: center;
+}
+.row-button i{
+    padding-top: 87.5px;
+}
+.row-button:hover{
+    cursor: pointer;
+    color: #fff;
 }
 /* --------Slider finish-------- */
 
@@ -170,18 +242,17 @@ body {
     background-color: #27212c;
     float: left;
 }
-.row-button{
-    height: 245px;
-    width: 22.5%;
-    background-color: #bc3183;
-    float: right;
+.row-text p{
+    margin-left: 88px;
+    line-height: 245px;
+    color: #8c7d9a;
+    font-size: 30px;
 }
 /* --------Info-row finish-------- */
 
 /* --------Banners start-------- */
 .banners{
     height: 295px;
-    margin: 0 auto;
 }
 .banner{
     width: 33%;
@@ -190,6 +261,15 @@ body {
 }
 .first{
     background-color: #5b0fa1;
+    color: #d7d7d7;
+    text-align: center;
+}
+.first i{
+    padding-top: 112.5px;
+}
+.first:hover{
+    cursor: pointer;
+    color: #fff;
 }
 .second{
     background-image: url(images/banner-2.jpg);
@@ -206,10 +286,60 @@ body {
 /* --------Banners finish-------- */
 
 /* --------Text start-------- */
+.text{
+    height: 460px;
+    padding-left: 80px;
+    overflow: hidden;
+}
+.text-header{
+    color: #088CA5;
+    font-size: 30px;
+    text-shadow: 0 1px 0 #FFF;
+    padding: 60px 0px 30px 0px;
+}
+.text-paragraph{
+    width: 400px;
+    color: #515151;
+    text-shadow: 0 1px 0 #FFF;
+    float: left;
+    padding-right: 70px;
+    line-height: 25px;
+}
+.text-paragraph p{
+}
 /* --------Text finish-------- */
 
-/* -------- start-------- */
-/* -------- finish-------- */
+/* --------Footer start-------- */
+.footer {
+    height: 130px;
+    background-color: #373C3F;
+    text-align: center;
+    overflow: hidden;
+}
+.social {
+    width: 264px;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+
+.social-icon {
+    margin: 0px 10px 0px 10px;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+}
+.social-icon i{
+    color: #d7d7d7;    
+}
+.social-icon i:hover {
+    color: #fff;
+}
+
+.social li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+/* --------Footer finish-------- */
 
 /* -------- start-------- */
 /* -------- finish-------- */
